@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS타일</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <main class="wrap">
+        <header class="header" id="header"></header>
+        <section class="visual-wrap">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/visual01.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/visual02.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/visual03.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+                <!--! Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    effect: "fade",
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    });
+                </script>
+        </section>
+        <section class="sec01 section">
+            <div class="sec01-txt">
+                <h2>주거공간에 <br> 멋과 감각을 더하다 </h2>
+                <p>타일은 이제 단순한 건축 마감재가 아닙니다.</p>
+                <p>쾌적하고 편안한 주거공간을 만들고</p>
+                <p>새로운 트랜드를 입힙니다.</p>
+                <a href="#">제품 바로가기 +</a>
+                <div class="bg-txt">The world bathroom <br> distributor</div>
+            </div>
+            <div class="sec01-slide">
+                <div class="slide-wrap">
+                    <div class="swiper swiper02">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/sec01-slide01.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sec01-slide02.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sec01-slide03.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sec01-slide04.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/sec01-slide05.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                  </div>
+                  <script>
+                    var swiper = new Swiper(".swiper02", {
+                      slidesPerView: "auto",
+                      slidesPerView:2,
+                      spaceBetween: 30,
+                      loop:true,
+                      pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                      },
+                      navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    breakpoints: {
+        
+                        768: {
+                        slidesPerView: 1,  //브라우저가 768보다 클 때
+                        spaceBetween: 40,
+                        }
+                    }
+                    });
+                  </script>
+                     
+                </div>
+                
+            </div>
+        </section>
+        <section class="section sec02">
+            <div class="sec02-wrap">
+            <h1>DS타일은 <br>고객과 함께 합니다 </h1>
+            <div class="sec02_gallery">
+                <div class="sec02_gallery_txt sec02_gallery_txt01">
+                    <span>GALLERY</span>
+                    <span>
+                        <img src="img/white-arrow.png" alt="">
+                    </span>
+                </div>
+                <div class="sec02_gallery_txt">
+                    <span>CATALOG</span>
+                    <span>
+                        <img src="img/white-arrow.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="sec02-notic">
+                <div class="sec02_news">
+                    <h3>NEWS</h3>
+                    <p>2023 여름휴가 일정 안내</p>
+                    <p>에스지세라 홈페이지 리뉴얼</p>
+                    <p>2023년 토요일/공휴일 근무 안내</p>
+                </div>
+                <div class="sec02_info">
+                    <h3>INFO</h3>
+                    <div class="sec02_info-box">
+                        <div class="sec02_info01">
+                            <h4>대구</h4>
+                            <p>대구광역시 동구 둔산로(방촌동) </p>
+                            <p>TEL : 000-000-0000</p>
+                            <p>FAX : 000-000-0000</p>
+                        </div>
+                        <div class="sec02_info01">
+                            <h4>서울</h4>
+                            <p>서울특별시 동구 둔산로(방촌동) </p>
+                            <p>TEL : 000-000-0000</p>
+                            <p>FAX : 000-000-0000</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </section>
+        <footer class="footer" id="footer"></footer>
+    </main>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $("#header").load("load/header.html");
+            $("#footer").load("load/footer.html");
+            
+        });
+     
+    
+  
+    </script>
+    
+</body>
+</html>
